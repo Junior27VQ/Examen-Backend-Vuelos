@@ -27,9 +27,11 @@ INSERT INTO vuelos (codigo, precio_boleto, asientos_disponibles) VALUES
 ('DL-456', 240.00, 6);
 
 SELECT * FROM vuelos WHERE asientos_disponibles < 5;
-
+SELECT * FROM vuelos
 UPDATE vuelos 
 SET precio_boleto = precio_boleto * 1.15 
 WHERE id = 5;
 
 DELETE FROM vuelos WHERE asientos_disponibles = 0;
+
+ALTER TABLE vuelos ADD COLUMN destino VARCHAR(100);

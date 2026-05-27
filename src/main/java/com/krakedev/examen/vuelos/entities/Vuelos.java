@@ -25,16 +25,20 @@ public class Vuelos {
 
     @Column(name = "asientos_disponibles", nullable = false)
     private Integer asientosDisponibles;
+    
+    @Column(name = "destino", length = 100)
+    private String destino;
 
 	public Vuelos() {
 		super();
 	}
 
-	public Vuelos(String codigo, BigDecimal precioBoleto, Integer asientosDisponibles) {
+	public Vuelos(String codigo, BigDecimal precioBoleto, Integer asientosDisponibles, String destino) {
 		super();
 		this.codigo = codigo;
 		this.precioBoleto = precioBoleto;
 		this.asientosDisponibles = asientosDisponibles;
+		this.destino = destino;
 	}
 
 	public Integer getId() {
@@ -69,10 +73,19 @@ public class Vuelos {
 		this.asientosDisponibles = asientosDisponibles;
 	}
 
+	public String getDestino() {
+		return destino;
+	}
+
+	public void setDestino(String destino) {
+		this.destino = destino;
+	}
+
 	@Override
 	public String toString() {
 		return "Vuelos [id=" + id + ", codigo=" + codigo + ", precioBoleto=" + precioBoleto + ", asientosDisponibles="
-				+ asientosDisponibles + "]";
+				+ asientosDisponibles + ", destino=" + destino + "]";
 	}
+	
     
 }

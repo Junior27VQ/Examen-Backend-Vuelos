@@ -35,6 +35,7 @@ public class ServicioVuelo {
 		encontrado.setCodigo(vuelo.getCodigo());
 		encontrado.setPrecioBoleto(vuelo.getPrecioBoleto());
 		encontrado.setAsientosDisponibles(vuelo.getAsientosDisponibles());
+		encontrado.setDestino(vuelo.getDestino());
 		
 		return repository.save(encontrado);
 	};
