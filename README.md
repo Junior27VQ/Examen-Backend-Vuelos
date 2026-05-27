@@ -8,7 +8,7 @@ Examen Práctico Evaluativo: Taller de  Desarrollo Backend
 - Scripts disponibles en `parte1_vuelos.sql`.
 
 ## Parte 2: API REST (Spring Boot)
-- Enlace al video: []
+- Enlace al video: [https://institutomovilis-my.sharepoint.com/:v:/g/personal/fa_velez_movilis_edu_ec/IQA-wQYIHGwlSK9IKF4S1tAVAUQAI457rSYCYnr3UYE5rH0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nRzzYH]
 - Colección de Postman: [Archivo en la raíz]
 
 ## Parte 3: Mantenimiento y Extensibilidad
